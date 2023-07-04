@@ -23,34 +23,16 @@ public class Robot implements Action{
     public void run() {
         System.out.println("Робот бежит");
     }
-
     @Override
     public void jump() {
-        System.out.println("Робот пргает");
+        System.out.println("Робот прыгает");
     }
-
     @Override
-    public void stop() {
-        System.out.println("Робот не прошел испытание\n");
-    }
-
+    public void stop() {System.out.println("Робот не прошел испытание\n");}
     @Override
-    public int getRun() {
-        return getRunDistance();
-    }
-
+    public int getRun() {return runDistance;}
     @Override
-    public int getHeight() {
-        return getH();
-    }
-
-    public int getRunDistance() {
-        return runDistance;
-    }
-    public int getH() {
-        return height;
-    }
-
+    public int getHeight() {return height;}
     public String getRobotName() {
         return robotName;
     }

@@ -1,6 +1,6 @@
 package main.java.homework.homework2;
 
-public class Human implements Action{
+public class Human extends LiveBeing implements Action{
     private String humanName;
     private int runDistance;
     private int height;
@@ -11,49 +11,31 @@ public class Human implements Action{
         this.runDistance = runDistance;
         this.height = height;
     }
-
     public Human() {
-        count += 1;
         this.humanName = "human" + count;
         this.runDistance = count;
         this.height = count;
+        count += 1;
     }
-
-
     @Override
-    public void run() {
-        System.out.println("Человек бежит");
-    }
-
+    public void run() {System.out.println("Человек бежит");}
     @Override
     public void jump() {
-        System.out.println("Человек пргает");
+        System.out.println("Человек прыгает");
     }
-
     @Override
     public void stop() {
         System.out.println("Человек не прошел испытание\n");
     }
-
     @Override
     public int getRun() {
-        return getRunDistance();
-    }
-
-    @Override
-    public int getHeight() {
-        return getH();
-    }
-
-    public int getRunDistance() {
         return runDistance;
     }
-
-    public int getH() {
+    @Override
+    public int getHeight() {
         return height;
     }
-
-    public String getHumanName() {
+    public String getName() {
         return humanName;
     }
 }
