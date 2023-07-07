@@ -1,0 +1,22 @@
+asd
+Answer{bull=0, cow=0, numTry=1}
+dsa
+Answer{bull=0, cow=0, numTry=2}
+asd
+Answer{bull=0, cow=0, numTry=3}
+dsa
+Answer{bull=0, cow=0, numTry=1}
+asd
+Answer{bull=0, cow=0, numTry=2}
+dsa
+Answer{bull=0, cow=0, numTry=3}
+wsq
+Answer{bull=0, cow=0, numTry=1}
+ylv
+Answer{bull=0, cow=0, numTry=0}
+asd
+Answer{bull=0, cow=0, numTry=1}
+dsa
+Answer{bull=0, cow=0, numTry=2}
+asd
+Answer{bull=0, cow=0, numTry=3}
