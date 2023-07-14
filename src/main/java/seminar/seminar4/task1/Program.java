@@ -6,11 +6,10 @@ public class Program {
         SimpleBox intBox2 = new SimpleBox(20);
         Integer sum = ((Integer) intBox1.getObj()) + ((Integer) intBox2.getObj()); // нужно кастить
         System.out.println(sum);
-        intBox1.setObj("20");
+        intBox1.setObj("20"); // ошибка выполнения
         Integer sum2 = 0;
         if (intBox1.getObj() instanceof Integer && intBox2.getObj() instanceof Integer){
             sum2 = ((Integer) intBox1.getObj()) + ((Integer) intBox2.getObj());
-            System.out.println("sum = " + sum);
         }
         System.out.println("sum2 = " + sum2);
         GenBox<Integer> gen1 = new GenBox(10);
