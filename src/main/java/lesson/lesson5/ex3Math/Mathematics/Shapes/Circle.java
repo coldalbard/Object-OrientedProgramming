@@ -1,6 +1,6 @@
 package main.java.lesson.lesson5.ex3Math.Mathematics.Shapes;
 
-import Ex003Math.Mathematics.Exceptions.UnacceptableValueException;
+import main.java.lesson.lesson5.ex3Math.Mathematics.Exceptions.UnacceptableValueException;
 
 public class Circle extends Shape {
     

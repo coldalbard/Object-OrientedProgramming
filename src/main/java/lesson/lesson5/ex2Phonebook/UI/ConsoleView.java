@@ -2,7 +2,7 @@ package main.java.lesson.lesson5.ex2Phonebook.UI;
 
 import java.util.Scanner;
 
-import Ex002Phonebook.Core.MVP.View;
+import main.java.lesson.lesson5.ex2Phonebook.Core.MVP.View;
 
 public class ConsoleView implements View {
     Scanner in;

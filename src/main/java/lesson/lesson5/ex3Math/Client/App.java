@@ -1,10 +1,10 @@
 package main.java.lesson.lesson5.ex3Math.Client;
 
-import Ex003Math.Core.Models.Model;
-import Ex003Math.Core.Presenters.Presenter;
-import Ex003Math.Core.Views.View;
-import Ex003Math.Mathematics.CalculateArea.CalculateArea;
-import Ex003Math.Mathematics.Exceptions.UnacceptableValueException;
+import main.java.lesson.lesson5.ex3Math.Core.Models.Model;
+import main.java.lesson.lesson5.ex3Math.Core.Presenters.Presenter;
+import main.java.lesson.lesson5.ex3Math.Core.Views.View;
+import main.java.lesson.lesson5.ex3Math.Mathematics.CalculateArea.CalculateArea;
+import main.java.lesson.lesson5.ex3Math.Mathematics.Exceptions.UnacceptableValueException;
 
 public class App {
     Presenter p;

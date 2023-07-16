@@ -2,7 +2,7 @@ package main.java.lesson.lesson5.ex3Math.Client;
 
 import java.util.Scanner;
 
-import Ex003Math.Core.Views.View;
+import main.java.lesson.lesson5.ex3Math.Core.Views.View;
 
 public class ConsoleView implements View {
     Scanner in = new Scanner(System.in);

@@ -1,13 +1,13 @@
 package main.java.lesson.lesson5.ex3Math.Core.Presenters;
 
  
-import Ex003Math.Core.Infrastructure.Generator;
-import Ex003Math.Core.Models.Model;
-import Ex003Math.Core.Views.View;
-import Ex003Math.Mathematics.Exceptions.UnacceptableValueException;
-import Ex003Math.Mathematics.Shapes.Circle;
-import Ex003Math.Mathematics.Shapes.Rectangle;
-import Ex003Math.Mathematics.Shapes.Shape;
+import main.java.lesson.lesson5.ex3Math.Core.Infrastructure.Generator;
+import main.java.lesson.lesson5.ex3Math.Core.Models.Model;
+import main.java.lesson.lesson5.ex3Math.Core.Views.View;
+import main.java.lesson.lesson5.ex3Math.Mathematics.Exceptions.UnacceptableValueException;
+import main.java.lesson.lesson5.ex3Math.Mathematics.Shapes.Circle;
+import main.java.lesson.lesson5.ex3Math.Mathematics.Shapes.Rectangle;
+import main.java.lesson.lesson5.ex3Math.Mathematics.Shapes.Shape;
 
 public class Presenter {
     Model model;

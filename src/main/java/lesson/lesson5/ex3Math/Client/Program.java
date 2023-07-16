@@ -1,11 +1,11 @@
 package main.java.lesson.lesson5.ex3Math.Client;
 
-import Ex003Math.Mathematics.Exceptions.UnacceptableValueException;
-import Ex003Math.Mathematics.CalculateArea.CalculateArea;
-import Ex003Math.Mathematics.Shapes.Canvas;
-import Ex003Math.Mathematics.Shapes.Circle;
-import Ex003Math.Mathematics.Shapes.Rectangle;
-import Ex003Math.Mathematics.Shapes.Shape;
+import main.java.lesson.lesson5.ex3Math.Mathematics.Exceptions.UnacceptableValueException;
+import main.java.lesson.lesson5.ex3Math.Mathematics.CalculateArea.CalculateArea;
+import main.java.lesson.lesson5.ex3Math.Mathematics.Shapes.Canvas;
+import main.java.lesson.lesson5.ex3Math.Mathematics.Shapes.Circle;
+import main.java.lesson.lesson5.ex3Math.Mathematics.Shapes.Rectangle;
+import main.java.lesson.lesson5.ex3Math.Mathematics.Shapes.Shape;
 
 public class Program {
     public static void main(String[] args) throws UnacceptableValueException {

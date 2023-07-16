@@ -1,8 +1,8 @@
 package main.java.lesson.lesson5.ex3Math.Core.Models;
 
-import Ex003Math.Mathematics.CalculateArea.Calculate;
-import Ex003Math.Mathematics.Shapes.Canvas;
-import Ex003Math.Mathematics.Shapes.Shape;
+import main.java.lesson.lesson5.ex3Math.Mathematics.CalculateArea.Calculate;
+import main.java.lesson.lesson5.ex3Math.Mathematics.Shapes.Canvas;
+import main.java.lesson.lesson5.ex3Math.Mathematics.Shapes.Shape;
 
 public class Model {
     Shape panel;

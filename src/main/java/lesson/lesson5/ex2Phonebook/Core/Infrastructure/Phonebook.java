@@ -3,7 +3,7 @@ package main.java.lesson.lesson5.ex2Phonebook.Core.Infrastructure;
 import java.util.ArrayList;
 import java.util.List;
 
-import Ex002Phonebook.Core.Models.Contact;
+import main.java.lesson.lesson5.ex2Phonebook.Core.Models.Contact;
 
 public class Phonebook {
 
