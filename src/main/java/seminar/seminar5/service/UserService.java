@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserService implements DataService{
-    private List<User> userList;
+    private List<User> userList = new ArrayList<>();
 
     @Override
     public void create(Type type, String name, String surname, String patronymic) {

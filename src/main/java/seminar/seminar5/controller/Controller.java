@@ -18,7 +18,7 @@ public class Controller {
     public void createTeacher(String name, String surname, String patronymic){
         service.create(Type.TEACHER, name, surname, patronymic);
     }
-    public void setAllStudent(){
+    public void getAllStudent(){
         List<User> studentList = service.readOnlyStudent();
         for (User user : studentList) {
             studentView.printConsole((Student) user);
