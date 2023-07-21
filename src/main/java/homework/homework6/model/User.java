@@ -4,7 +4,7 @@ import main.java.homework.homework6.service.Type;
 import main.java.homework.homework6.service.UserDescription;
 
 /**
- * @apiNote class User отвечает только за хранение информации о данных о человеке.
+ * @apiNote class User отвечает только за хранение информации о человеке.
  * (единственная ответственность -> Single Responsibility Principle)
  */
 public abstract class User {
